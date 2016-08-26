@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'moneys/index'
+
+  get 'pages/index'
+
   get '/' => 'pages#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
