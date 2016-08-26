@@ -1,0 +1,2 @@
+module PissHelper
+end
