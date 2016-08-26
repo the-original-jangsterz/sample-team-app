@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'my_names/index'
+
   get '/' => 'pages#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
