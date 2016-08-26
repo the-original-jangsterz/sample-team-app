@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'moneys/index'
+
+  get 'pages/index'
+
   get '/' => 'pages#index'
   get '/show' => 'pages#show'
 
