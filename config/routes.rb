@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   get '/captains' => 'captains#index'
 
   get '/' => 'pages#index'
+  get '/show' => 'pages#show'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
