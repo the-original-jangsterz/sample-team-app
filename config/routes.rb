@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get '/danikas' => 'danikas#index'
+
   get '/' => 'pages#index'
   get '/show' => 'pages#show'
 
