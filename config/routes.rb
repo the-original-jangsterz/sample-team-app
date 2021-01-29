@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get '/soler' => 'soler#index'
+
   get '/' => 'pages#index'
   get '/show' => 'pages#show'
 
