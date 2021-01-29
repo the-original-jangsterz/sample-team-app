@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get '/penguin' => 'penguin#index'
+
   get '/' => 'pages#index'
   get '/show' => 'pages#show'
 
